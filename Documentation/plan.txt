@@ -1,0 +1,29 @@
+Creating a class to get securities list from a trusted website: 
+This is a good starting point. You can create a class or a module
+that handles web scraping or API calls to retrieve the securities 
+information from a reliable source.
+
+Creating a class to upload the fetched information to a database:
+Once you have obtained the securities data, you will need to store
+it in a database. Creating a separate class or module to handle database 
+operations like inserting or updating the fetched information is a good
+approach.
+
+Creating a local copy of the database: 
+It's a good idea to create a local copy of the database
+to improve the application's performance. By having a local copy, 
+you can reduce the number of database queries and fetch data faster. 
+However, ensure that you have a mechanism to synchronize the local 
+copy with the main database periodically to keep the data up to date.
+
+Creating functions for users to select desired securities to watch: 
+To provide a personalized experience, allowing users to select 
+and track their desired securities is crucial. Implementing functions 
+that allow users to add or remove securities from their watchlist is 
+a valuable feature.
+
+Creating a function for users to subscribe to the channel: 
+If your software includes channels for delivering content or updates, 
+implementing a subscription feature would be beneficial. 
+This would allow users to receive notifications or updates related to 
+the securities they are interested in.
